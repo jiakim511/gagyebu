@@ -32,7 +32,8 @@ Google Apps Script 웹앱 (Code.gs)
 
 | 파일 | 역할 |
 |---|---|
-| `index.html` | 가계부 앱 화면 전체 (이 파일 하나가 GitHub Pages로 서빙됩니다) |
+| `index.html` | 가계부 앱 화면 전체 (이 파일이 GitHub Pages로 서빙됩니다) |
+| `manifest.json` | 웹앱 매니페스트 — iOS가 이 앱을 "제대로 설치된" 웹앱으로 인식하도록 도움 (`index.html`과 같은 폴더에 함께 올려야 합니다) |
 | `Code.gs` | Google Apps Script 데이터 서버 (카드 문자 파싱·저장, 앱과의 동기화 API) |
 | `SETUP_GUIDE.md` | GitHub Pages 배포 + Apps Script 배포 + 아이폰 설치까지 전체 가이드 |
 
